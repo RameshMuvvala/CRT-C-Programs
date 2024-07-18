@@ -1,0 +1,18 @@
+#include<stdio.h>
+int n[100],i,count;
+int main()
+{
+	int r = count;
+	printf("Enter how many elements have to enter:");
+	scanf("%d",&count);
+	printf("Enter the elements:\n");
+	for(i=0;i<count;i++)
+	{
+		scanf("%d",&n[i]);
+	}
+	printf("Enterd elements:\n");
+	for(i=0;i<count;i++)
+	{
+		printf("%d",n[i]);
+	}
+}
